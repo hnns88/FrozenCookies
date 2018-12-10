@@ -1426,6 +1426,10 @@ function isUnavailable(upgrade, upgradeBlacklist) {
         result = true; // blacklist chocolate egg from being used
     }
 
+    if (upgrade.id == 562) {
+        result = true; // blacklist shimmering veil from being used
+    }
+
     return result;
 }
 
